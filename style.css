@@ -1,0 +1,177 @@
+/* Font faces */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/inter-v18-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/inter-v18-latin-600.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/inter-v18-latin-700.woff2") format("woff2");
+}
+
+/* Global custom properties */
+:root {
+  --clr-green: hsl(75, 94%, 57%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey-700: hsl(0, 0%, 20%);
+  --clr-grey-800: hsl(0, 0%, 12%);
+  --clr-grey-900: hsl(0, 0%, 8%);
+
+  --ff-body: "Inter", sans-serif;
+
+  --fs-body: 0.875rem; /* 14px */
+  --fs-heading: 1.5rem; /* 24px */
+
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  --sp-1: 0.5rem; /* 8px */
+  --sp-2: 1rem; /* 16px */
+  --sp-3: 1.5rem; /* 24px */
+  --sp-4: 2rem; /* 32px */
+  --sp-5: 2.5rem; /* 40px */
+  --sp-11: 5.5rem; /* 88px */
+  --sp-48: 24rem; /* 384px */
+
+  --radius-circle: 50%;
+
+  --wrapper-size: 75rem; /* 1200px */
+}
+
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--clr-grey-900);
+  color: var(--clr-white);
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+}
+
+/* Utility classes */
+.wrapper {
+  --inline-space: var(--sp-2);
+  --max-width: var(--wrapper-size);
+
+  width: min(100% - calc(var(--inline-space) * 2), var(--max-width));
+  margin-inline: auto;
+}
+
+.grid {
+  --gap: var(--sp-2);
+
+  display: grid;
+  gap: var(--gap);
+}
+
+/* Element level styling */
+.profile {
+  --inline-space: var(--sp-3);
+  --max-width: var(--sp-48);
+  --gap: var(--sp-3);
+
+  margin-block: 7.25rem;
+  padding: var(--sp-3);
+  background-color: var(--clr-grey-800);
+  border-radius: var(--sp-1);
+
+  @media (width>=1440px) {
+    margin-block: 10.875rem;
+    padding: var(--sp-5);
+  }
+}
+
+.profile header {
+  --gap: var(--sp-4);
+
+  text-align: center;
+
+  figure {
+    --gap: var(--sp-4);
+
+    justify-items: center;
+
+    img {
+      width: var(--sp-11);
+      height: auto;
+      border-radius: var(--radius-circle);
+    }
+
+    figcaption {
+      h1 {
+        font-size: var(--sp-3);
+        font-weight: var(--fw-600);
+      }
+      address {
+        font-weight: var(--fw-700);
+        color: var(--clr-green);
+      }
+    }
+  }
+}
+
+.profile nav {
+  ul {
+    li {
+      a {
+        text-decoration: none;
+        background-color: var(--clr-grey-700);
+        padding: var(--sp-2);
+        display: block;
+        border-radius: var(--sp-1);
+        font-weight: var(--fw-700);
+        text-align: center;
+        transition: all 150ms ease-in-out;
+
+        &:hover,
+        &:focus-visible {
+          color: var(--clr-grey-900);
+          background-color: var(--clr-green);
+        }
+      }
+    }
+  }
+}
+
+.attribution {
+  color: oklch(from var(--clr-white) 60% c h);
+  text-align: center;
+  text-wrap: balance;
+  padding-block-end: var(--sp-4);
+}
