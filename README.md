@@ -88,12 +88,13 @@ Users should be able to:
 
 ### Useful Resources
 
+- [Figma](https://figma.com) - To get an idea about colors, sizes, spaces etc.
 - [Google Webfonts Helper](https://gwfh.mranftl.com/fonts) - This resource helped me self-host fonts. I found this pattern very useful and plan to use it going forward.
 
 ## Author
 
 - Frontend Mentor - [@heygauravshukla](https://www.frontendmentor.io/profile/heygauravshukla)
-- Twitter - [@heygauravshukla](https://www.twitter.com/heygauravshukla)
+- X - [@heygauravshukla](https://x.com/heygauravshukla)
 
 ## Acknowledgments
 
