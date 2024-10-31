@@ -38,10 +38,11 @@ Users should be able to:
 ### Built With
 
 - Semantic HTML5 markup
+- BEM naming convention
 - Mobile-first workflow
 - Self-hosted fonts
-- CSS custom properties, Grid
-- Modern CSS features - nesting, relative colors
+- CSS custom properties and grid
+- Modern CSS features, such as relative colors
 
 ### What I Learned
 
@@ -56,7 +57,7 @@ Users should be able to:
   </figure>
   ```
 
-  These tags can be used to display an image along with its caption more semantically.
+  These tags can display an image along with its caption in a more semantic way.
 
 - **`<address>` tag**:
 
@@ -82,14 +83,12 @@ Users should be able to:
 
 ### Continued Development
 
-- Using custom properties more effectively.
-- Creating meaningful class names for HTML elements.
-- Leveraging modern CSS features like nesting and relative colors.
+- Using modern CSS solutions for older CSS problems.
 
 ### Useful Resources
 
-- [Figma](https://figma.com) - To get an idea about colors, sizes, spaces etc.
-- [Google Webfonts Helper](https://gwfh.mranftl.com/fonts) - This resource helped me self-host fonts. I found this pattern very useful and plan to use it going forward.
+- [Figma](https://figma.com) - To get an idea about colors, font-sizes, spaces, etc.
+- [google-webfonts-helper](https://gwfh.mranftl.com/fonts) - A hassle-free way to self-host Google Fonts.
 
 ## Author
 
@@ -107,4 +106,4 @@ These resources helped me improve my CSS writing:
 
 ### Articles or Blogs
 
-- [Andy Bell's Modern CSS Reset](https://piccalil.li/blog/a-more-modern-css-reset/)
+- [BEM](https://getbem.com/)
