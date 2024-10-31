@@ -66,13 +66,14 @@ body {
 
 .profile {
   --inline-space: var(--space-6);
+  --max-width: var(--space-96);
 
   /* Structure */
   display: grid;
   box-sizing: border-box;
 
   /* Box Model */
-  width: min(100% - calc(2 * var(--inline-space)), var(--space-96));
+  width: min(100% - calc(2 * var(--inline-space)), var(--max-width));
   margin-inline: auto;
   margin-block: 7.25rem;
   padding: var(--space-6);
