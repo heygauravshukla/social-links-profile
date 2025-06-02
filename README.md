@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-w-tailwind-css-vobbSXB6NS](https://www.frontendmentor.io/solutions/social-links-profile-w-tailwind-css-vobbSXB6NS)
 - Live Site URL: [https://heygauravshukla.github.io/social-links-profile](https://heygauravshukla.github.io/social-links-profile)
 
 ## My process
@@ -49,14 +49,14 @@ Using Tailwind CSS CDN to build websites even faster.
 
 ### Useful resources
 
-- [google-webfonts-helper](https://gwfh.mranftl.com/fonts) - A Hassle-Free Way to Self-Host Google Fonts
+- [google-webfonts-helper](https://gwfh.mranftl.com/fonts) - A hassle-free way to self-host Google fonts
 - [Squoosh](https://squoosh.app) - Image Optimizer
 
 ## Author
 
 - Website - [Gaurav Shukla](https://gshukla.vercel.app)
-- Frontend Mentor - [@heygauravShukla](https://www.frontendmentor.io/profile/heygauravShukla)
-- Twitter - [@heygauravShukla](https://www.twitter.com/heygauravShukla)
+- Frontend Mentor - [@heygauravshukla](https://www.frontendmentor.io/profile/heygauravshukla)
+- Twitter - [@heygauravshukla](https://www.twitter.com/heygauravshukla)
 
 ## Acknowledgments
 
